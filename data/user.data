@@ -1,0 +1,5 @@
+#userId	(segId1,segId2,...) (weight1,wegith2,...weightN) (targetAttr1,targetAttr2,...targetAttrN) (attr1,attr2,...attrN)
+#intepreted as a user belongs to these many segs, has preference over weights of N target attributes of other users, and has his/her own values of the N attributes
+1 (2,3) (0.1,0.2,0.7) (10,13,25) (10,15,20)
+2 (1,2,3) (0.2,0.3,0.5) (8,7,10) (10,15,20)
+3 (1,3) (0.2,0.5,0.3) (8,15,20) (8,13,10)
